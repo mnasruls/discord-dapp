@@ -11,7 +11,7 @@ contract DiscordDapp is ERC721 {
     struct Channel {
         uint256 id;
         string name;    
-        uint256 cost;
+        uint256 cost; // some comment
     }
 
     mapping(uint256 => Channel) public channels;
