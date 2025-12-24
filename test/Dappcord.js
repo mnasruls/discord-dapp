@@ -16,7 +16,7 @@ describe("discord-dapp", () => {
     // Deploy DiscordDapp contract
     const Dappcord = await ethers.getContractFactory("DiscordDapp")
     dappcord = await Dappcord.deploy("Dappcord", "DAPP", { gasLimit: 6000000 })
-    await dappcord.asdasd
+    await dappcord.bcdbcd
 
     // Get signers
     const tx = await dappcord.connect(deployer).createChannel("General", tokens(1), { gasLimit: 3000000 })
