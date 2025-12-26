@@ -15,6 +15,9 @@ This repository is for learning purposes only and is not production-ready. Use i
 - Messaging: Socket.IO
 - Web3 library: ethers.js
 
+## Architecture Flow
+![Architecture Flow](./flow.png)
+
 ## Prerequisites
 - Node.js (recommended v18 LTS)
 - npm
